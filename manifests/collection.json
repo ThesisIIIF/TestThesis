@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://ThesisIIIF.github.io/TestThesis/manifests/manifest.json",
     "label" : "古今算法記"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ThesisIIIF.github.io/TestThesis/manifests/manifest2.json",
+    "label" : "古今算法記"
   } ]
 }
