@@ -1,0 +1,5119 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://ThesisIIIF.github.io/TestThesis/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "viewingDirection" : "right-to-left",
+  "label" : "古今算法記",
+  "metadata" : [ {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "ソース"
+    }, {
+      "@language" : "en",
+      "@value" : "Source"
+    } ],
+    "value" : "<a href=\"https://hdl.handle.net/2324/6632290\" target=\"_blank\">https://hdl.handle.net/2324/6632290</a>"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "著者"
+    }, {
+      "@language" : "en",
+      "@value" : "Author"
+    } ],
+    "value" : "沢口, 一之"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "日付"
+    }, {
+      "@language" : "en",
+      "@value" : "Date"
+    } ],
+    "value" : "1670"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "関連情報"
+    }, {
+      "@language" : "en",
+      "@value" : "Relation"
+    } ],
+    "value" : "<a href=\"http://hdl.handle.net/2324/1001140337\" target=\"_blank\">http://hdl.handle.net/2324/1001140337</a>"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "権利"
+    }, {
+      "@language" : "en",
+      "@value" : "Rights"
+    } ],
+    "value" : "パブリックドメイン<br />Public Domain"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "概要"
+    }, {
+      "@language" : "en",
+      "@value" : "Description"
+    } ],
+    "value" : "刊記: 京極第五橋書林 田中庄兵衛壽梓<br />序: 寛文庚戌夏六月 福本氏道閑序"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "IIIF manifest"
+    }, {
+      "@language" : "en",
+      "@value" : "IIIF manifest"
+    } ],
+    "value" : "<a href=\"https://catalog.lib.kyushu-u.ac.jp/image/manifest/1/820/6632290.json\" target=\"_blank\">https://catalog.lib.kyushu-u.ac.jp/image/manifest/1/820/6632290.json</a>"
+  }, {
+    "label" : [ {
+      "@language" : "ja",
+      "@value" : "ロゴ"
+    }, {
+      "@language" : "en",
+      "@value" : "Logo"
+    } ],
+    "value" : "<img alt=\"logo\" src=\"https://catalog.lib.kyushu-u.ac.jp/media/img/qu/menu/qu_univ_logo.jpg\">"
+  } ],
+  "attribution" : "Kyushu University Library Collections",
+  "sequences" : [ {
+    "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/manifest/1/820/6632290.json/sequence0",
+    "@type" : "sc:Sequence",
+    "canvases" : [ {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p1",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "1",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080786.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://48fca05a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p1",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080786.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4032,
+          "width" : 5728,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080786.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p2",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "2",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080787.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a3d8d098",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p2",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080787.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4032,
+          "width" : 5728,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080787.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p3",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "3",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080788.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://09fb6156",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p3",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080788.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080788.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p4",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "4",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080789.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://4a91f710",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p4",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080789.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080789.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p5",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "5",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080790.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6f4f9059",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p5",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080790.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080790.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p6",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "6",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080791.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://5e232c1b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p6",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080791.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080791.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p7",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "7",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080792.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://fa7477d9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p7",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080792.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080792.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p8",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "8",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080793.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a038d117",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p8",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080793.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4032,
+          "width" : 5728,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080793.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p9",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "9",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080794.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://183d3b51",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p9",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080794.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080794.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p10",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "10",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080795.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f1f41948",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p10",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080795.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080795.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p11",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "11",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080796.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f42455ea",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p11",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080796.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080796.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p12",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "12",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080797.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://87d75b88",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p12",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080797.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080797.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p13",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "13",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080798.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://20dd32a6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p13",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080798.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080798.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p14",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "14",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080799.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://5f5570c0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p14",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080799.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080799.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p15",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "15",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080800.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://be75080e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p15",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080800.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "height" : 4032,
+          "width" : 5728,
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080800.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p16",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "16",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080801.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://d82ec5ac",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p16",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080801.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080801.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p17",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "17",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080802.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://327e164e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p17",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080802.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080802.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p18",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "18",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080803.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://51765e60",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p18",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080803.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080803.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p19",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "19",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080804.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://7af53f86",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p19",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080804.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080804.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p20",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "20",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080805.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c71dd80d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p20",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080805.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080805.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p21",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "21",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080806.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://8cd2242f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p21",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080806.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080806.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p22",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "22",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080807.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://74bf3f4d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p22",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080807.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080807.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p23",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "23",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080808.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://906f69e3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p23",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080808.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080808.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p24",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "24",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080809.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6ce86d85",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p24",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080809.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080809.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p25",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "25",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080810.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://eb38ac6c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p25",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080810.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080810.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p26",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "26",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080811.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6bdd100e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p26",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080811.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080811.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p27",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "27",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080812.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://521c12ac",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p27",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080812.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080812.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p28",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "28",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080813.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f4dfa5c2",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p28",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080813.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080813.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p29",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "29",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080814.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a7b8e3e4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p29",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080814.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080814.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p30",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "30",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080815.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://373e97ed",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p30",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080815.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080815.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p31",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "31",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080816.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f72ab88f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p31",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080816.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080816.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p32",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "32",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080817.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://cb511d2d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p32",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080817.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080817.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p33",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "33",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080818.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://7cdb0343",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p33",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080818.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080818.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p34",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "34",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080819.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://dd092d65",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p34",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080819.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080819.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p35",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "35",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080820.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://b6675c4e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p35",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080820.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080820.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p36",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "36",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080821.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://5310186c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p36",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080821.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080821.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p37",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "37",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080822.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://bc77bf8e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p37",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080822.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080822.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p38",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "38",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080823.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f5990c20",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p38",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080823.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080823.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p39",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "39",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080824.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://72e793c6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p39",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080824.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080824.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p40",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "40",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080825.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://86e19149",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p40",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080825.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080825.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p41",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "41",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080826.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://989346eb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p41",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080826.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080826.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p42",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "42",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080827.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://851d1f89",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p42",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080827.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080827.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p43",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "43",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080828.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://ff1368a7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p43",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080828.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080828.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p44",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "44",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080829.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2f1b16c1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p44",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080829.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080829.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p45",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "45",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080830.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://b4421fa8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p45",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080830.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080830.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p46",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "46",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080831.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://bbf4e2ca",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p46",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080831.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080831.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p47",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "47",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080832.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://820726e8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p47",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080832.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080832.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p48",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "48",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080833.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://fda6d686",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p48",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080833.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080833.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p49",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "49",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080834.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6e536720",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p49",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080834.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080834.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p50",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "50",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080835.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://5d63f329",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p50",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080835.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080835.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p51",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "51",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080836.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://1182174b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p51",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080836.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080836.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p52",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "52",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080837.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://fd6a5769",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p52",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080837.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080837.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p53",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "53",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080838.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://3b603807",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p53",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080838.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080838.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p54",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "54",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080839.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://059d78a1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p54",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080839.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080839.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p55",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "55",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080840.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://1110bf8e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p55",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080840.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080840.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p56",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "56",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080841.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2aca7d2c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p56",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080841.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080841.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p57",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "57",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080842.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://8519cdce",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p57",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080842.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080842.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p58",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "58",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080843.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://fedaa6e0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p58",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080843.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080843.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p59",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "59",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080844.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://cb220706",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p59",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080844.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080844.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p60",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "60",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080845.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://174a9f8d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p60",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080845.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080845.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p61",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "61",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080846.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://dcfeebaf",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p61",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080846.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080846.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p62",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "62",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080847.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c4ec06cd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p62",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080847.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080847.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p63",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "63",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080848.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://3dd3b263",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p63",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080848.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080848.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p64",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "64",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080849.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://bf842505",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p64",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080849.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080849.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p65",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "65",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080850.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://3dd463ec",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p65",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080850.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080850.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p66",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "66",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080851.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://be78c78e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p66",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080851.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080851.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p67",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "67",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080852.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a4b7ca2c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p67",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080852.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080852.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p68",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "68",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080853.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a243ee42",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p68",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080853.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080853.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p69",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "69",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080854.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f7e5ab64",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p69",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080854.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080854.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p70",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "70",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080855.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://876b5f6d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p70",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080855.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080855.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p71",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "71",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080856.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://4757800f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p71",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080856.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080856.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p72",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "72",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080857.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://1b7de4ad",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p72",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080857.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080857.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p73",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "73",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080858.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2a3f4bc3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p73",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080858.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080858.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p74",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "74",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080859.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2fa4e4e5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p74",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080859.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080859.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p75",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "75",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080860.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://090313ce",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p75",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080860.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080860.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p76",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "76",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080861.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a5abcfec",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p76",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080861.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080861.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p77",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "77",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080862.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://0f13770e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p77",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080862.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080862.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p78",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "78",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080863.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a2fd54a0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p78",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080863.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080863.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p79",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "79",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080864.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c3145b46",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p79",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080864.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080864.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p80",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "80",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080865.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://96d43ac1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p80",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080865.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080865.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p81",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "81",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080866.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a885f063",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p81",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080866.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080866.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p82",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "82",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080867.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://950fc901",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p82",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080867.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080867.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p83",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "83",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080868.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://7c59972f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p83",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080868.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080868.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p84",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "84",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080869.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://0729d649",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p84",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080869.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080869.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p85",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "85",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080870.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c1c5d920",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p85",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080870.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080870.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p86",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "86",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080871.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c9789c42",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p86",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080871.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080871.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p87",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "87",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080872.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://8f8ae060",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p87",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080872.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080872.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p88",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "88",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080873.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f0231d0e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p88",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080873.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080873.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p89",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "89",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080874.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://be072ea8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p89",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080874.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080874.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p90",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "90",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080875.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6d569ca1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p90",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080875.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080875.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p91",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "91",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080876.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2174c0c3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p91",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080876.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080876.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p92",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "92",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080877.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://0d5d00e1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p92",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080877.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080877.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p93",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "93",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080878.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://b8a6668f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p93",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080878.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080878.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p94",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "94",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080879.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://ddac3829",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p94",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080879.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080879.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p95",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "95",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080880.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a6a27b0e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p95",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080880.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080880.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p96",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "96",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080881.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c05c38ac",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p96",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080881.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080881.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p97",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "97",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080882.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://1aab894e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p97",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080882.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080882.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p98",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "98",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080883.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6948eb60",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p98",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080883.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080883.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p99",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "99",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080884.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://92c7cc86",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p99",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080884.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080884.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p100",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "100",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080885.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://30d6d656",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p100",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080885.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080885.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p101",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "101",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080886.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://8f975314",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p101",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080886.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080886.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p102",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "102",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080887.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://eb3b2556",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p102",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080887.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080887.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p103",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "103",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080888.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://0f825f98",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p103",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080888.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080888.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p104",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "104",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080889.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://7bf7105e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p104",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080889.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080889.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p105",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "105",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080890.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://ea519757",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p105",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080890.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080890.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p106",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "106",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080891.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://90c7e415",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p106",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080891.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080891.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p107",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "107",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080892.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://d3f19f57",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p107",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080892.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080892.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p108",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "108",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080893.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://4ec77299",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p108",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080893.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080893.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p109",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "109",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080894.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f740f15f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p109",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080894.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080894.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p110",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "110",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080895.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://288c1456",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p110",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080895.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080895.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p111",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "111",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080896.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://e62212d4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p111",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080896.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080896.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p112",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "112",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080897.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a6b29956",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p112",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080897.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080897.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p113",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "113",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080898.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://e8e55d58",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p113",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080898.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080898.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p114",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "114",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080899.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://73ac4e5e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p114",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080899.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080899.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p115",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "115",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080900.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://0c7a45fe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p115",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080900.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080900.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p116",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "116",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080901.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://43c484fc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p116",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080901.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080901.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p117",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "117",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080902.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://78f28bfe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p117",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080902.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080902.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p118",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "118",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080903.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2de5d970",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p118",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080903.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080903.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p119",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "119",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080904.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://094d9bf6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p119",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080904.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080904.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p120",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "120",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080905.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://800d95fd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p120",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080905.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080905.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p121",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "121",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080906.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://8b9c993f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p121",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080906.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080906.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p122",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "122",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080907.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://7ea7f77d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p122",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080907.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080907.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p123",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "123",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080908.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://3fa1b433",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p123",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080908.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080908.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p124",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "124",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080909.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://bb11cbf5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p124",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080909.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080909.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p125",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "125",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080910.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a8c788bc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p125",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080910.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080910.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p126",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "126",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080911.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://ca966e7e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p126",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080911.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080911.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p127",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "127",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080912.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://d69da33c",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p127",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080912.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080912.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p128",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "128",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080913.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://3443e672",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p128",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080913.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080913.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p129",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "129",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080914.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a59adeb4",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p129",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080914.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080914.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p130",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "130",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080915.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://f44d15fd",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p130",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080915.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080915.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p131",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "131",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080916.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://641878ff",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p131",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080916.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080916.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p132",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "132",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080917.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://b6a9ad7d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p132",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080917.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080917.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p133",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "133",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080918.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://9af5d1f3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p133",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080918.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080918.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p134",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "134",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080919.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://2f514bf5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p134",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080919.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080919.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p135",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "135",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080920.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://617cdffe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p135",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080920.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080920.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p136",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "136",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080921.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://aaa3f0fc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p136",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080921.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080921.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p137",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "137",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080922.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://122b387e",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p137",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080922.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080922.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p138",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "138",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080923.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://508f32f0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p138",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080923.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080923.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p139",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "139",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080924.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://5e5035f6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p139",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080924.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080924.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p140",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "140",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080925.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://a1d759f9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p140",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080925.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080925.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p141",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "141",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080926.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://7eba9fbb",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p141",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080926.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080926.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p142",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "142",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080927.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://5c3ba8f9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p142",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080927.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080927.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p143",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "143",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080928.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://17a0a137",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p143",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080928.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080928.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p144",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "144",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080929.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c6bb5ef1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p144",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080929.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080929.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p145",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "145",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080930.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://57299db8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p145",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080930.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080930.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p146",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "146",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080931.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://c0a5af7a",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p146",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080931.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080931.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p147",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "147",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080932.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://40c9a5b8",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p147",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080932.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080932.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p148",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "148",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080933.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://adc063f6",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p148",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080933.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080933.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p149",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "149",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080934.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://6a1d24b0",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p149",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080934.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080934.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p150",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "150",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080935.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://998c97f9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p150",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080935.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080935.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p151",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "151",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080936.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://34363b7b",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p151",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080936.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080936.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p152",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "152",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080937.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://17b31cf9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p152",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080937.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080937.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p153",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "153",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080938.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://4ff47af7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p153",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080938.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080938.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p154",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "154",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080939.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://be709cf1",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p154",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080939.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080939.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p155",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "155",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080940.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://52ce6cfe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p155",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080940.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080940.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p156",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "156",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080941.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://8a18abfc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p156",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080941.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080941.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    }, {
+      "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p157",
+      "@type" : "sc:Canvas",
+      "height" : 4032,
+      "width" : 5728,
+      "label" : "157",
+      "thumbnail" : {
+        "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080942.tiff/full/90,/0/default.jpg",
+        "@type" : "dctypes:Image"
+      },
+      "images" : [ {
+        "@id" : "vault://bf46b2fe",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : {
+          "type" : "SpecificResource",
+          "source" : {
+            "id" : "https://catalog.lib.kyushu-u.ac.jp/image/6632290/canvas/p157",
+            "type" : "Canvas"
+          }
+        },
+        "resource" : {
+          "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080942.tiff/full/max/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://catalog.lib.kyushu-u.ac.jp/image/iiif/1/820/6632290/1080942.tiff",
+            "profile" : "http://iiif.io/api/image/2/profiles/level2.json"
+          }
+        }
+      } ]
+    } ]
+  } ],
+  "structures" : [ ]
+}
