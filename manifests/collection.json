@@ -1,0 +1,13 @@
+{
+  "id" : "https://ThesisIIIF.github.io/TestThesis/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in ThesisIIIF/TestThesis project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://ThesisIIIF.github.io/TestThesis/manifests/manifest.json",
+    "label" : "古今算法記"
+  } ]
+}
